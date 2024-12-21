@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Header.css'
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div className='Header-wrapper'>ToDo List</div>
-    )
-  }
+export default function Header() {
+  return (
+    <div className='Header-wrapper'>ToDo List</div>
+  )
 }
